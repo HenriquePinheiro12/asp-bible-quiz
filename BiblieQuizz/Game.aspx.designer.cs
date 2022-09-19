@@ -11,7 +11,7 @@ namespace BiblieQuizz
 {
 
 
-    public partial class Home
+    public partial class Game
     {
 
         /// <summary>
@@ -33,12 +33,39 @@ namespace BiblieQuizz
         protected global::System.Web.UI.WebControls.Button playBtn;
 
         /// <summary>
-        /// Controle playBtn2.
+        /// Controle questionNumber.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button playBtn2;
+        protected global::System.Web.UI.WebControls.Label questionNumber;
+
+        /// <summary>
+        /// Controle questionStatement.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label questionStatement;
+
+        /// <summary>
+        /// Controle rdoList.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rdoList;
+
+        /// <summary>
+        /// Controle confirmBtn.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button confirmBtn;
     }
 }

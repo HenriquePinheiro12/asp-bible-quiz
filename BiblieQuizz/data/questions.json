@@ -1,0 +1,178 @@
+[
+    {
+        "Statement": "Quem é o Senhor e salvador?",
+        "Alternatives": [
+            "Jesus",
+            "Cristo",
+            "Miguel"
+        ],
+        "CorrectAnswer": 0
+    },
+    {
+        "Statement": "Em quantos dias Deus fez o universo?",
+        "Alternatives": [
+            "7 dias",
+            "6 dias",
+            "1 dia"
+        ],
+        "CorrectAnswer": 0
+    },
+    {
+        "Statement": "Quem é foi pai de José?",
+        "Alternatives": [
+            "Israel",
+            "Jerusalém",
+            "Moisés"
+        ],
+        "CorrectAnswer": 0
+    },
+    {
+        "Statement": "Quantos anos durou o cativeiro babilônico?",
+        "Alternatives": [
+            "400 anos",
+            "40 anos",
+            "70 anos"
+        ],
+        "CorrectAnswer": 2
+    },
+    {
+        "Statement": "Quem escreveu o livro de Lamentações?",
+        "Alternatives": [
+            "Salomão",
+            "Jeremias",
+            "Davi"
+        ],
+        "CorrectAnswer": 1
+    },
+    {
+        "Statement": "Quantos filos teve Jacó?",
+        "Alternatives": [
+            "12 filhos",
+            "11 filhos",
+            "13 filhos"
+        ],
+        "CorrectAnswer": 2
+    },
+    {
+        "Statement": "Quem foi o primeiro rei de Israel?",
+        "Alternatives": [
+            "Roboão",
+            "Davi",
+            "Saul"
+        ],
+        "CorrectAnswer": 2
+    },
+    {
+        "Statement": "Quantos anos durou o ministério de Jesus?",
+        "Alternatives": [
+            "3 anos",
+            "3 anos e meio",
+            "2 anos"
+        ],
+        "CorrectAnswer": 1
+    },
+    {
+        "Statement": "Onde Abrão morava antes de ser chamado por Deus?",
+        "Alternatives": [
+            "Ur",
+            "Egito",
+            "Síria"
+        ],
+        "CorrectAnswer": 0
+    },
+    {
+        "Statement": "Quem foi pai de Isaias?",
+        "Alternatives": [
+            "Acaz",
+            "Amós",
+            "Uzias"
+        ],
+        "CorrectAnswer": 1
+    },
+    {
+        "Statement": "Qual é a primeira igreja da Ásia Menor citada por João no livro de Apocalipse?",
+        "Alternatives": [
+            "Igreja de Pérgamo",
+            "Igreja de Laodiceia",
+            "Igreja de Éfeso"
+        ],
+        "CorrectAnswer": 2
+    },
+    {
+        "Statement": "Quantos animais Daniel vê na visão no capítulo 7 de seu livro?",
+        "Alternatives": [
+            "2 animais",
+            "4 animais",
+            "7 animais"
+        ],
+        "CorrectAnswer": 1
+    },
+    {
+        "Statement": "Qual profeta teve os lábios purificados por Deus?",
+        "Alternatives": [
+            "Isaias",
+            "Oséias",
+            "Ezequiel"
+        ],
+        "CorrectAnswer": 0
+    },
+    {
+        "Statement": "Quantos anciãos foram vistos na assembléia celestial de Apocalipse 4?",
+        "Alternatives": [
+            "7 anciãos",
+            "12 anciãos",
+            "24 anciãos"
+        ],
+        "CorrectAnswer": 2
+    },
+    {
+        "Statement": "João e Tiago foram filhos de quem?",
+        "Alternatives": [
+            "Zebedeu",
+            "José",
+            "Ezequias"
+        ],
+        "CorrectAnswer": 0
+    },
+    {
+        "Statement": "Quantos livros a Bíblia possui?",
+        "Alternatives": [
+            "40 livros",
+            "54 livros",
+            "66 livros"
+        ],
+        "CorrectAnswer": 2
+    },
+    {
+        "Statement": "Qual apóstolo foi escolhido para substituir Judas Iscariotes?",
+        "Alternatives": [
+            "Bartolomeu",
+            "Tadeu",
+            "Matias"
+        ],
+        "CorrectAnswer": 2
+    },
+    {
+        "Statement": "Qual era a capital do reino de Israel?",
+        "Alternatives": [
+            "Jerusalém",
+            "Samaria",
+            "Judá"
+        ],
+        "CorrectAnswer": 1
+    },
+    {
+        "Statement": "Quantos capítulos possui o livro de Jeremias?",
+        "Alternatives": [
+            "49 capítulos",
+            "52 capítulos",
+            "60 capítulos"
+        ],
+        "CorrectAnswer": 1
+    }
+
+
+
+
+
+]

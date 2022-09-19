@@ -32,6 +32,8 @@ header, footer {
     padding: 2em;
 }
 
+.alt-color { color: var(--primary) !important}
+
 .brand-logo {
     display: flex;
     align-items: center;
@@ -67,7 +69,7 @@ nav li input {
 
 nav li input.active { color: var(--secondary) }
 
-nav li input:hover, .icons li:hover { color: var(--secondary) }
+nav li input:hover, .icons li:hover { color: var(--secondary) !important }
 
 nav li::after {
     content:'';
@@ -109,7 +111,7 @@ nav li:hover::after {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 500px;
+    width: 800px;
     max-width: 100%
 }
 
@@ -121,16 +123,19 @@ nav li:hover::after {
         text-align: center
     }
 
-.play-btn {
-    font-size: 1.5em;
-    color: var(--highlight);
-    border: solid 3px var(--highlight);
+.play-btn, .confirm-btn {
     padding: .5em 1em;
     border-radius: 2em;
     cursor: pointer;
     font-weight: 600;
     transition: background-color .5s ease-in-out;
     transition: color .5s ease-in-out;
+}
+
+.play-btn {
+    font-size: 1.5em;
+    color: var(--highlight);
+    border: solid 3px var(--highlight);
 }
 
 .play-btn:hover {
@@ -187,4 +192,42 @@ footer h2:hover::after {
 .icons li img{
     cursor:pointer;
     width: 40px
+}
+
+/* GAME SECTION */
+
+main {
+    margin: 0 2em;
+}
+
+.question-number {
+    font-weight: 600;
+    font-size: 2em;
+    color: var(--primary);
+    display: block;
+}
+
+.question-statement {
+    display: block;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.question-number, .question-statement, .question-alt-container { margin-bottom: 1.5em }
+
+.question-statement, .question-alt-container { margin-left: 1em }
+
+.question-alt-container { border-spacing:0 1em }
+
+.question-alt-container label { margin-left: .5em }
+
+.confirm-btn {
+    font-size: 1em;
+    color: var(--secondary);
+    border: solid 1px var(--secondary);
+}
+
+.confirm-btn:hover {
+    background-color: var(--secondary);
+    color: white
 }

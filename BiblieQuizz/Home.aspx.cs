@@ -13,5 +13,15 @@ namespace BiblieQuizz
         {
 
         }
+
+        protected void StartGame(object sender, EventArgs e) 
+        {
+            Response.Redirect("Game.aspx");
+        }
+
+        protected void GoToHome(object sender, EventArgs e) 
+        {
+            Response.Redirect("Home.aspx");
+        }
     }
 }

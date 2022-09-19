@@ -22,10 +22,10 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <asp:Button cssClass="active" Text="Home" runat="server" />
+                                    <asp:Button OnClick="GoToHome" cssClass="active" Text="Home" runat="server" />
                                 </li>
                                 <li>
-                                    <asp:Button ID="playBtn" Text="Play" runat="server" />
+                                    <asp:Button OnClick="StartGame" ID="playBtn" Text="Play" runat="server" />
                                 </li>
                                 <li>
                                     <a target="_blank" href="https://github.com/henriquepinheiro12">
@@ -40,7 +40,7 @@
                     </header>
                     <section class="hero-content">
                         <h2>Teste seus conhecimentos bíblicos!</h2>
-                        <asp:Button cssClass="play-btn"     ID="playBtn2" Text="Jogar" runat="server" />
+                        <asp:Button cssClass="play-btn" OnClick="StartGame" ID="playBtn2" Text="Jogar" runat="server" />
                     </section>
                 </div>
             </div>
