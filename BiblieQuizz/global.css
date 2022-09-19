@@ -200,12 +200,21 @@ main {
     margin: 0 2em;
 }
 
-.question-number {
+.question-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question-number, .score-count {
     font-weight: 600;
-    font-size: 2em;
     color: var(--primary);
     display: block;
 }
+
+.question-number { font-size: 2em }
+
+.score-count { font-size: 1.5em }
 
 .question-statement {
     display: block;
@@ -213,7 +222,7 @@ main {
     line-height: 1.5em;
 }
 
-.question-number, .question-statement, .question-alt-container { margin-bottom: 1.5em }
+.question-header, .question-statement, .question-alt-container { margin-bottom: 2em }
 
 .question-statement, .question-alt-container { margin-left: 1em }
 

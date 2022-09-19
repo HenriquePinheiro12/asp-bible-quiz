@@ -14,7 +14,7 @@ namespace BiblieQuizz
     {
 
         static List<Question> questionList;
-        Question currentQuestion;
+        static Question currentQuestion;
         const string JSONPath = 
             "C:\\Users\\user\\Desktop\\pw\\asp-bible-quiz\\BiblieQuizz\\data\\questions.json";
         // must get it always 
@@ -48,6 +48,7 @@ namespace BiblieQuizz
         protected void RenderQuestion() {
             questionNumber.Text = $"Questão {Question.CurrentIndex}";
             questionStatement.Text = currentQuestion.Statement;
+            scoreLbl.Text = $"Pontuação: {Question.Score}";
 
             rdoList.Items.Clear();
             int i = 0;
@@ -58,10 +59,14 @@ namespace BiblieQuizz
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack) LoadJson();
-            else handleAnswer();
-
-            currentQuestion = questionList.ElementAt(Question.CurrentIndex++);
+            if (!IsPostBack) { 
+                LoadJson();
+                currentQuestion = questionList.ElementAt(Question.CurrentIndex++);
+            } else
+            {
+                handleAnswer();
+                currentQuestion = questionList.ElementAt(Question.CurrentIndex++);
+            }
             RenderQuestion();
         }
 

@@ -40,7 +40,12 @@
             </header>
             
             <main>
-                <asp:Label ID="questionNumber" Text="Questão 1" CssClass="question-number" runat="server" />
+                
+                <div class="question-header">
+                    <asp:Label ID="questionNumber" Text="Questão 1" CssClass="question-number" runat="server" />
+                    <asp:Label ID="scoreLbl" Text="Pontuação: 0" CssClass="score-count" runat="server" />
+                </div>
+                
                 <asp:Label ID="questionStatement" Text="Quantos anos viveu Metusalém?" CssClass="question-statement" runat="server" />
                 
                 <asp:RadioButtonList ID="rdoList" CssClass="question-alt-container" runat="server">
