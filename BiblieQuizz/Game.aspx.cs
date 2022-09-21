@@ -13,7 +13,7 @@ namespace BiblieQuizz
     public partial class Game : System.Web.UI.Page
     {
 
-        static List<Question> questionList;
+        public static List<Question> questionList;
         static Question currentQuestion;
         const string JSONPath = 
             "C:\\Users\\user\\Desktop\\pw\\asp-bible-quiz\\BiblieQuizz\\data\\questions.json";

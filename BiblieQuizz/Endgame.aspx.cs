@@ -11,7 +11,7 @@ namespace BiblieQuizz
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            pointsContainer.Text = $"{Question.Score} acertos!";
         }
 
         protected void GoToHome(object sender, EventArgs e) => Response.Redirect("Home.aspx");

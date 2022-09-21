@@ -8,18 +8,22 @@ namespace BiblieQuizz
 {
     public class Question
     {
-        public Question() { }
+        public Question(int i) => this.index = i;
+
+        private int index;
         private string statement;
         private string[] alternatives;
         private int correctAnswer;
+
         private static int score = 0;
         private static int currentIndex = 0;
 
-        public string Statement { get { return statement; } set { statement = value; } }
-        public string[] Alternatives { get { return alternatives; } set { alternatives = value; } }
-        public int CorrectAnswer { get { return correctAnswer; } set { correctAnswer = value; } }
-        public static int Score { get { return score; } set { score = value; } }
-        public static int CurrentIndex { get { return currentIndex; } set { currentIndex = value; } }
+        public int Index { get; }
+        public string Statement { get; set; }
+        public string[] Alternatives { get; set; }
+        public int CorrectAnswer { get; set; }
+        public static int Score { get; set; }
+        public static int CurrentIndex { get; set; }
         public static void ResetGame() 
         {
             score = 0;

@@ -43,6 +43,26 @@
                         <asp:Label Text="10 acertos" ID="pointsContainer" CssClass="points-container" runat="server" />
                     </section>
                 </div>
+                <main>
+                    <h2>Seu desempenho</h2>
+                    <asp:Repeater runat="server">
+                        <ItemTemplate>
+                            <!-- Background color depends on correct or not -->
+                            <div class="question-report">
+                                <h2>Questão <span><%# Eval("Index") %></span></h2>
+                                <p><%# Eval("Statement") %></p>
+
+                                <!-- 
+                                    
+                                    Radio[checked] : correctAnswer
+                                    Radio[!checked] : givenAnser
+                                    -->
+
+                            </div>
+
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </main>
             </div>
         </div>
     </form>
