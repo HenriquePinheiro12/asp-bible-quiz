@@ -1,12 +1,12 @@
 [
     {
-        "Statement": "Quem é o Senhor e salvador?",
+        "Statement": "Quem ï¿½ o Senhor e salvador?",
         "Alternatives": [
             "Jesus",
             "Cristo",
             "Miguel"
         ],
-        "CorrectAnswer": 0
+        "CorrectIndex": 0
     },
     {
         "Statement": "Em quantos dias Deus fez o universo?",
@@ -15,68 +15,68 @@
             "6 dias",
             "1 dia"
         ],
-        "CorrectAnswer": 0
+        "CorrectIndex": 0
     },
     {
-        "Statement": "Quem é foi pai de José?",
+        "Statement": "Quem foi pai de Josï¿½?",
         "Alternatives": [
             "Israel",
-            "Jerusalém",
-            "Moisés"
+            "Jerusalï¿½m",
+            "Moisï¿½s"
         ],
-        "CorrectAnswer": 0
+        "CorrectIndex": 0
     },
     {
-        "Statement": "Quantos anos durou o cativeiro babilônico?",
+        "Statement": "Quantos anos durou o cativeiro babilï¿½nico?",
         "Alternatives": [
             "400 anos",
             "40 anos",
             "70 anos"
         ],
-        "CorrectAnswer": 2
+        "CorrectIndex": 2
     },
     {
-        "Statement": "Quem escreveu o livro de Lamentações?",
+        "Statement": "Quem escreveu o livro de Lamentaï¿½ï¿½es?",
         "Alternatives": [
-            "Salomão",
+            "Salomï¿½o",
             "Jeremias",
             "Davi"
         ],
-        "CorrectAnswer": 1
+        "CorrectIndex": 1
     },
     {
-        "Statement": "Quantos filos teve Jacó?",
+        "Statement": "Quantos filos teve Jacï¿½?",
         "Alternatives": [
             "12 filhos",
             "11 filhos",
             "13 filhos"
         ],
-        "CorrectAnswer": 2
+        "CorrectIndex": 2
     },
     {
         "Statement": "Quem foi o primeiro rei de Israel?",
         "Alternatives": [
-            "Roboão",
+            "Roboï¿½o",
             "Davi",
             "Saul"
         ],
-        "CorrectAnswer": 2
+        "CorrectIndex": 2
     },
     {
-        "Statement": "Quantos anos durou o ministério de Jesus?",
+        "Statement": "Quantos anos durou o ministï¿½rio de Jesus?",
         "Alternatives": [
             "3 anos",
             "3 anos e meio",
             "2 anos"
         ],
-        "CorrectAnswer": 1
+        "CorrectIndex": 1
     },
     {
-        "Statement": "Onde Abrão morava antes de ser chamado por Deus?",
+        "Statement": "Onde Abrï¿½o morava antes de ser chamado por Deus?",
         "Alternatives": [
             "Ur",
             "Egito",
-            "Síria"
+            "Sï¿½ria"
         ],
         "CorrectAnswer": 0
     },
@@ -84,22 +84,22 @@
         "Statement": "Quem foi pai de Isaias?",
         "Alternatives": [
             "Acaz",
-            "Amós",
+            "Amï¿½s",
             "Uzias"
         ],
         "CorrectAnswer": 1
     },
     {
-        "Statement": "Qual é a primeira igreja da Ásia Menor citada por João no livro de Apocalipse?",
+        "Statement": "Qual ï¿½ a primeira igreja da ï¿½sia Menor citada por Joï¿½o no livro de Apocalipse?",
         "Alternatives": [
-            "Igreja de Pérgamo",
+            "Igreja de Pï¿½rgamo",
             "Igreja de Laodiceia",
-            "Igreja de Éfeso"
+            "Igreja de ï¿½feso"
         ],
         "CorrectAnswer": 2
     },
     {
-        "Statement": "Quantos animais Daniel vê na visão no capítulo 7 de seu livro?",
+        "Statement": "Quantos animais Daniel vï¿½ na visï¿½o no capï¿½tulo 7 de seu livro?",
         "Alternatives": [
             "2 animais",
             "4 animais",
@@ -108,34 +108,34 @@
         "CorrectAnswer": 1
     },
     {
-        "Statement": "Qual profeta teve os lábios purificados por Deus?",
+        "Statement": "Qual profeta teve os lï¿½bios purificados por Deus?",
         "Alternatives": [
             "Isaias",
-            "Oséias",
+            "Osï¿½ias",
             "Ezequiel"
         ],
         "CorrectAnswer": 0
     },
     {
-        "Statement": "Quantos anciãos foram vistos na assembléia celestial de Apocalipse 4?",
+        "Statement": "Quantos anciï¿½os foram vistos na assemblï¿½ia celestial de Apocalipse 4?",
         "Alternatives": [
-            "7 anciãos",
-            "12 anciãos",
-            "24 anciãos"
+            "7 anciï¿½os",
+            "12 anciï¿½os",
+            "24 anciï¿½os"
         ],
         "CorrectAnswer": 2
     },
     {
-        "Statement": "João e Tiago foram filhos de quem?",
+        "Statement": "Joï¿½o e Tiago foram filhos de quem?",
         "Alternatives": [
             "Zebedeu",
-            "José",
+            "Josï¿½",
             "Ezequias"
         ],
         "CorrectAnswer": 0
     },
     {
-        "Statement": "Quantos livros a Bíblia possui?",
+        "Statement": "Quantos livros a Bï¿½blia possui?",
         "Alternatives": [
             "40 livros",
             "54 livros",
@@ -144,7 +144,7 @@
         "CorrectAnswer": 2
     },
     {
-        "Statement": "Qual apóstolo foi escolhido para substituir Judas Iscariotes?",
+        "Statement": "Qual apï¿½stolo foi escolhido para substituir Judas Iscariotes?",
         "Alternatives": [
             "Bartolomeu",
             "Tadeu",
@@ -155,18 +155,18 @@
     {
         "Statement": "Qual era a capital do reino de Israel?",
         "Alternatives": [
-            "Jerusalém",
+            "Jerusalï¿½m",
             "Samaria",
-            "Judá"
+            "Judï¿½"
         ],
         "CorrectAnswer": 1
     },
     {
-        "Statement": "Quantos capítulos possui o livro de Jeremias?",
+        "Statement": "Quantos capï¿½tulos possui o livro de Jeremias?",
         "Alternatives": [
-            "49 capítulos",
-            "52 capítulos",
-            "60 capítulos"
+            "49 capï¿½tulos",
+            "52 capï¿½tulos",
+            "60 capï¿½tulos"
         ],
         "CorrectAnswer": 1
     }

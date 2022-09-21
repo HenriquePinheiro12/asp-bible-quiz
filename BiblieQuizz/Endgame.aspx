@@ -55,7 +55,7 @@
                                 <ul class="answer-report">
                                     <li>
                                         <span class="answer-report-label">Resposta correta: </span>
-                                        <asp:Label CssClass="correct-answer" Text=<%# DataBinder.Eval(Container.DataItem, "correctAnswer") %> runat="server" />   
+                                        <asp:Label CssClass="correct-answer" Text=<%# DataBinder.Eval(Container.DataItem, "CorrectAnswer") %> runat="server" />   
                                     </li>  
                                     <li>
                                         <span class="answer-report-label">Sua resposta: </span>

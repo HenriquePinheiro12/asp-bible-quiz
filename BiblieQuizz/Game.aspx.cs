@@ -16,7 +16,7 @@ namespace BiblieQuizz
         public static List<Question> questionList;
         static Question currentQuestion;
         const string JSONPath =
-            "C:\\Users\\Lab_ETESP\\Desktop\\henry\\asp-bible-quiz\\BiblieQuizz\\data\\questions.json";
+            "C:\\Users\\user\\Desktop\\pw\\asp-bible-quiz\\BiblieQuizz\\data\\questions.json";
         // must get it always 
 
         
@@ -46,7 +46,7 @@ namespace BiblieQuizz
         }
 
         protected void RenderQuestion() {
-            questionNumber.Text = $"Questão {Question.CurrentIndex}";
+            questionNumber.Text = $"Questão {Question.CurrentIndex + 1}";
             questionStatement.Text = currentQuestion.Statement;
             scoreLbl.Text = $"Pontuação: {Question.Score}";
 
@@ -62,14 +62,15 @@ namespace BiblieQuizz
             if (!IsPostBack) {
                 Question.ResetGame();
                 LoadJson();
-                currentQuestion = questionList.ElementAt(Question.CurrentIndex++);
+                currentQuestion = questionList.ElementAt(Question.CurrentIndex);
             } else
             {
                 handleAnswer();
-                currentQuestion = questionList.ElementAt(Question.CurrentIndex++);
+                currentQuestion = questionList.ElementAt(++Question.CurrentIndex);
             }
 
-            if (Question.CurrentIndex == questionList.Count)
+            //if (Question.CurrentIndex == questionList.Count)
+            if (Question.CurrentIndex == 3)
                 Response.Redirect("Endgame.aspx");
             RenderQuestion();
         }
