@@ -13,7 +13,8 @@
 :root {
     --primary: #2b495d;
     --secondary: #e7aa60;
-    --highlight: #d9225b
+    --highlight: #d9225b;
+    --sucess: #008C0F;
 }
 
 
@@ -138,7 +139,7 @@ nav li:hover::after {
 
 }
 
-.play-btn, .confirm-btn {
+.play-btn, .confirm-btn, .restart-btn {
     padding: .5em 1em;
     border-radius: 2em;
     cursor: pointer;
@@ -263,3 +264,87 @@ main {
     background-color: var(--secondary);
     color: white
 }
+
+
+
+/*
+
+    Questions report
+
+*/
+
+.question-report {
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    position:relative
+}
+
+    .question-report::after {
+        position: absolute;
+        content:'';
+        left:0;
+        right:0;
+        bottom:0;
+        height:1px;
+        background-color:var(--primary)
+    }
+
+    .question-report:last-child::after { display:none }
+
+.report-title {
+    margin: 5rem;
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.repeater-container {
+    margin: 2em auto;
+    width: 1200px;
+    max-width: 90%;
+}
+
+.question-report h2 {
+    color: var(--secondary);
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+
+.report-statement {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+.answer-report {
+    display: flex;
+    flex-direction: column;
+}
+    .answer-report li { margin-bottom: .5em }
+
+.answer-report-label {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+    .answer-report .correct-answer { color: var(--sucess) }
+
+
+.restart-btn-container {
+    display:flex;
+    flex-direction:row-reverse;
+    padding: 0 2em;
+    margin-bottom: 3em;
+}
+
+.restart-btn {
+    font-size: 1em;
+    color: var(--sucess);
+    border: solid 1px var(--sucess);
+}
+
+    .restart-btn:hover {
+        background-color: var(--sucess);
+        color: white
+    }

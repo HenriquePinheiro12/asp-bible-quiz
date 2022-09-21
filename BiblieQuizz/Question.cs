@@ -8,26 +8,27 @@ namespace BiblieQuizz
 {
     public class Question
     {
-        public Question(int i) => this.index = i;
 
-        private int index;
-        private string statement;
-        private string[] alternatives;
-        private int correctAnswer;
 
-        private static int score = 0;
-        private static int currentIndex = 0;
+        public Question(string stt, string[] alt, int correctI) {
+            this.Statement = stt;
+            this.Alternatives = alt;
+            this.CorrectIndex = correctI;
+        }
 
-        public int Index { get; }
         public string Statement { get; set; }
         public string[] Alternatives { get; set; }
-        public int CorrectAnswer { get; set; }
+        public int CorrectIndex { get; set; }
+        public string CorrectAnswer { get { return this.Alternatives[this.CorrectIndex]; } }
+        public int AnswerIndex { get; set; }
+        public string Answer { get { return this.Alternatives[this.AnswerIndex]; } }
+
         public static int Score { get; set; }
         public static int CurrentIndex { get; set; }
         public static void ResetGame() 
         {
-            score = 0;
-            currentIndex = 0;
+            Score = 0;
+            CurrentIndex = 0;
         }
     }
 }

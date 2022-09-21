@@ -15,8 +15,8 @@ namespace BiblieQuizz
 
         public static List<Question> questionList;
         static Question currentQuestion;
-        const string JSONPath = 
-            "C:\\Users\\user\\Desktop\\pw\\asp-bible-quiz\\BiblieQuizz\\data\\questions.json";
+        const string JSONPath =
+            "C:\\Users\\Lab_ETESP\\Desktop\\henry\\asp-bible-quiz\\BiblieQuizz\\data\\questions.json";
         // must get it always 
 
         
@@ -88,9 +88,9 @@ namespace BiblieQuizz
         {
             int answerIndex = rdoList.SelectedIndex;
 
+            questionList.ElementAt(Question.CurrentIndex).AnswerIndex = answerIndex;
 
-
-            if (answerIndex == currentQuestion.CorrectAnswer) Question.Score++;
+            if (answerIndex == currentQuestion.CorrectIndex) Question.Score++;
 
             System.Diagnostics.Debug.WriteLine(Question.Score);
 

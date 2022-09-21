@@ -44,14 +44,25 @@
                     </section>
                 </div>
                 <main>
-                    <h2>Seu desempenho</h2>
-                    <asp:Repeater runat="server">
+                    <h2 class="report-title">Seu desempenho</h2>
+                    <div class="repeater-container">
+                        <asp:Repeater ID="repeater" runat="server">
                         <ItemTemplate>
                             <!-- Background color depends on correct or not -->
                             <div class="question-report">
-                                <h2>Questão <span><%# Eval("Index") %></span></h2>
-                                <p><%# Eval("Statement") %></p>
-
+                                <h2>Questão <span><%# Container.ItemIndex+1 %></span></h2>
+                                <p class="report-statement"><%# DataBinder.Eval(Container.DataItem, "Statement") %></p>
+                                <ul class="answer-report">
+                                    <li>
+                                        <span class="answer-report-label">Resposta correta: </span>
+                                        <asp:Label CssClass="correct-answer" Text=<%# DataBinder.Eval(Container.DataItem, "correctAnswer") %> runat="server" />   
+                                    </li>  
+                                    <li>
+                                        <span class="answer-report-label">Sua resposta: </span>
+                                        <asp:Label Text=<%# DataBinder.Eval(Container.DataItem, "Answer") %> runat="server" />
+                                    </li>
+                                </ul>
+                                
                                 <!-- 
                                     
                                     Radio[checked] : correctAnswer
@@ -62,7 +73,36 @@
 
                         </ItemTemplate>
                     </asp:Repeater>
+                    </div>
+                    
+                    <div class="restart-btn-container">
+                        <asp:Button CssClass="restart-btn" OnClick="StartGame" Text="Tentar novamente" runat="server" />
+                    </div>
+
                 </main>
+
+                <footer>
+                <h2>
+                    <a target="_blank" href="https://github.com/henriquepinheiro12">
+                        @HenriquePinheiro
+                    </a>
+                </h2>
+
+                <ul class="icons">
+                    <li>
+                        <img src="assets/facebook-icon.svg" alt="facebook icon" />
+                    </li>
+                    <li>
+                        <img src="assets/instagram-icon.svg" alt="instagram icon" />
+                    </li>
+                    <li>
+                        <img src="assets/twitter-icon.svg" alt="twitter icon" />
+                    </li>
+                    <li>
+                        <img src="assets/tiktok-icon.svg" alt="tiktok icon" />
+                    </li>
+                </ul>
+            </footer>
             </div>
         </div>
     </form>
