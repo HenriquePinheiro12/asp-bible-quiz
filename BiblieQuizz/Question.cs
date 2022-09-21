@@ -20,5 +20,10 @@ namespace BiblieQuizz
         public int CorrectAnswer { get { return correctAnswer; } set { correctAnswer = value; } }
         public static int Score { get { return score; } set { score = value; } }
         public static int CurrentIndex { get { return currentIndex; } set { currentIndex = value; } }
+        public static void ResetGame() 
+        {
+            score = 0;
+            currentIndex = 0;
+        }
     }
 }

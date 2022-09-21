@@ -59,7 +59,8 @@ namespace BiblieQuizz
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack) { 
+            if (!IsPostBack) {
+                Question.ResetGame();
                 LoadJson();
                 currentQuestion = questionList.ElementAt(Question.CurrentIndex++);
             } else
@@ -67,6 +68,9 @@ namespace BiblieQuizz
                 handleAnswer();
                 currentQuestion = questionList.ElementAt(Question.CurrentIndex++);
             }
+
+            if (Question.CurrentIndex == questionList.Count)
+                Response.Redirect("Endgame.aspx");
             RenderQuestion();
         }
 
@@ -82,13 +86,11 @@ namespace BiblieQuizz
 
         protected void handleAnswer()
         {
-            int i = rdoList.SelectedIndex;
-
-            System.Diagnostics.Debug.WriteLine("Correct i: "+ currentQuestion.CorrectAnswer);
-            System.Diagnostics.Debug.WriteLine("Selected i:"+ i);
+            int answerIndex = rdoList.SelectedIndex;
 
 
-            if (i == currentQuestion.CorrectAnswer) Question.Score++;
+
+            if (answerIndex == currentQuestion.CorrectAnswer) Question.Score++;
 
             System.Diagnostics.Debug.WriteLine(Question.Score);
 
