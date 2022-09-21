@@ -41,7 +41,7 @@ namespace BiblieQuizz
             using (StreamReader file = new StreamReader(JSONPath))
             {
                 questionList = JsonNet.Deserialize<List<Question>>(file.ReadToEnd());
-                Shuffle<Question>(questionList);
+                Shuffle(questionList);
             }
         }
 
@@ -87,6 +87,9 @@ namespace BiblieQuizz
         protected void handleAnswer()
         {
             int answerIndex = rdoList.SelectedIndex;
+
+
+            // first question not working
 
             questionList.ElementAt(Question.CurrentIndex).AnswerIndex = answerIndex;
 

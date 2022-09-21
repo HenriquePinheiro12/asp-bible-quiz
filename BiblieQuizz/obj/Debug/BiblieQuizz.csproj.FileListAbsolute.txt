@@ -218,8 +218,8 @@ C:\Users\Lab_ETESP\Desktop\henry\asp-bible-quiz\BiblieQuizz\bin\roslyn\VBCSCompi
 C:\Users\Lab_ETESP\Desktop\henry\asp-bible-quiz\BiblieQuizz\bin\Json.Net.dll
 C:\Users\Lab_ETESP\Desktop\henry\asp-bible-quiz\BiblieQuizz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Lab_ETESP\Desktop\henry\asp-bible-quiz\BiblieQuizz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Lab_ETESP\Desktop\henry\asp-bible-quiz\BiblieQuizz\obj\Debug\BiblieQuizz.csprojAssemblyReference.cache
 C:\Users\Lab_ETESP\Desktop\henry\asp-bible-quiz\BiblieQuizz\obj\Debug\BiblieQuizz.csproj.CoreCompileInputs.cache
 C:\Users\Lab_ETESP\Desktop\henry\asp-bible-quiz\BiblieQuizz\obj\Debug\BiblieQuizz.csproj.CopyComplete
 C:\Users\Lab_ETESP\Desktop\henry\asp-bible-quiz\BiblieQuizz\obj\Debug\BiblieQuizz.dll
 C:\Users\Lab_ETESP\Desktop\henry\asp-bible-quiz\BiblieQuizz\obj\Debug\BiblieQuizz.pdb
+C:\Users\Lab_ETESP\Desktop\henry\asp-bible-quiz\BiblieQuizz\obj\Debug\BiblieQuizz.csprojAssemblyReference.cache

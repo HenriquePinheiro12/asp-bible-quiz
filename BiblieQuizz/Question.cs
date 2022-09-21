@@ -8,7 +8,7 @@ namespace BiblieQuizz
 {
     public class Question
     {
-
+        public Question() { }
 
         public Question(string stt, string[] alt, int correctI) {
             this.Statement = stt;
