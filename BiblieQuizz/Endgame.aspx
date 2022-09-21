@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="BiblieQuizz.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Endgame.aspx.cs" Inherits="BiblieQuizz.Endgame" %>
 
 <!DOCTYPE html>
 
@@ -6,12 +6,12 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" href="global.css"/>
-    <title>Bible Quiz</title>
+    <title>Bible quiz</title>
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="root">
-            <div class="hero-container initial-bg">
+            <div class="hero-container final-bg">
                 <div class="bg-overflow">
                     <header>
                         <div class="brand-logo">
@@ -39,39 +39,11 @@
                         </nav>
                     </header>
                     <section class="hero-content">
-                        <h2>Teste seus conhecimentos bíblicos!</h2>
-                        <asp:Button cssClass="play-btn" OnClick="StartGame" ID="playBtn2" Text="Jogar" runat="server" />
+                        <h2 class="your-result">Seu resultado:</h2>
+                        <asp:Label Text="10 acertos" ID="pointsContainer" CssClass="points-container" runat="server" />
                     </section>
                 </div>
             </div>
-            <div class="verse-container">
-                <p class="text">
-                    "Examinais as Escrituras, porque julgais ter nelas a vida eterna, e são elas mesmas que testificam de mim."
-                </p>
-                <span class="verse">João 5:39</span>
-            </div>
-            <footer>
-                <h2>
-                    <a target="_blank" href="https://github.com/henriquepinheiro12">
-                        @HenriquePinheiro
-                    </a>
-                </h2>
-
-                <ul class="icons">
-                    <li>
-                        <img src="assets/facebook-icon.svg" alt="facebook icon" />
-                    </li>
-                    <li>
-                        <img src="assets/instagram-icon.svg" alt="instagram icon" />
-                    </li>
-                    <li>
-                        <img src="assets/twitter-icon.svg" alt="twitter icon" />
-                    </li>
-                    <li>
-                        <img src="assets/tiktok-icon.svg" alt="tiktok icon" />
-                    </li>
-                </ul>
-            </footer>
         </div>
     </form>
 </body>

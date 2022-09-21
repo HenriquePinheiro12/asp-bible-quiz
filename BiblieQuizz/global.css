@@ -88,13 +88,20 @@ nav li:hover::after {
 
 
 .hero-container {
-    background-image: url(./assets/bible-background.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-    background-position:center 70%;
     background-attachment:fixed;
     height:600px;
 }
+
+    .hero-container.initial-bg {
+        background-image: url(./assets/bible-background.jpg);
+        background-position: center 70%;
+    }
+    .hero-container.final-bg {
+        background-image: url(./assets/bible-wood-bg.jpg);
+        background-position: center 100%;
+    }
 
 .bg-overflow {
     height: 100%;
@@ -123,6 +130,14 @@ nav li:hover::after {
         text-align: center
     }
 
+.hero-container h2.your-result {
+    margin-bottom: .5em;
+    font-size: 2em;
+    color: white;
+    font-weight: 400;
+
+}
+
 .play-btn, .confirm-btn {
     padding: .5em 1em;
     border-radius: 2em;
@@ -142,6 +157,14 @@ nav li:hover::after {
     background-color: var(--highlight);
     color: white
 }
+
+
+.points-container {
+    font-weight: 600;
+    font-size: 6em;
+    color: var(--highlight);
+}
+
 
 .verse-container {
     margin: 6em auto;

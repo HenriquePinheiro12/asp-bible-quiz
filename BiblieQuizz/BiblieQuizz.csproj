@@ -72,16 +72,25 @@
   <ItemGroup>
     <Content Include="assets\bible-background.jpg" />
     <Content Include="assets\bible-icon.png" />
+    <Content Include="assets\bible-wood-bg.jpg" />
     <Content Include="assets\facebook-icon.svg" />
     <Content Include="assets\instagram-icon.svg" />
     <Content Include="assets\tiktok-icon.svg" />
     <Content Include="assets\twitter-icon.svg" />
+    <Content Include="Endgame.aspx" />
     <Content Include="global.css" />
     <Content Include="Game.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Endgame.aspx.cs">
+      <DependentUpon>Endgame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Endgame.aspx.designer.cs">
+      <DependentUpon>Endgame.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Game.aspx.cs">
       <DependentUpon>Game.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

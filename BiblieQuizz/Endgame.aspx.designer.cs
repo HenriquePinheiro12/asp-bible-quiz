@@ -10,7 +10,7 @@
 namespace BiblieQuizz {
     
     
-    public partial class Home {
+    public partial class Endgame {
         
         /// <summary>
         /// Controle form1.
@@ -31,12 +31,12 @@ namespace BiblieQuizz {
         protected global::System.Web.UI.WebControls.Button playBtn;
         
         /// <summary>
-        /// Controle playBtn2.
+        /// Controle pointsContainer.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button playBtn2;
+        protected global::System.Web.UI.WebControls.Label pointsContainer;
     }
 }
