@@ -20,9 +20,8 @@ namespace BiblieQuizz
         public string[] Alternatives { get; set; }
         public int CorrectIndex { get; set; }
         public string CorrectAnswer { get { return this.Alternatives[this.CorrectIndex]; } }
-        public int AnswerIndex { get; set; }
-        public string Answer { get { return this.Alternatives[this.AnswerIndex]; } }
-
+        public int AnswerIndex { get; set; } = -1;
+        public string Answer { get => this.AnswerIndex < 0 ? "Não respondida" : this.Alternatives[this.AnswerIndex]; }
         public static int Score { get; set; }
         public static int CurrentIndex { get; set; }
         public static void ResetGame() 

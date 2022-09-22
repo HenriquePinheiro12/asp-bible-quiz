@@ -62,16 +62,20 @@ namespace BiblieQuizz
             if (!IsPostBack) {
                 Question.ResetGame();
                 LoadJson();
+
                 currentQuestion = questionList.ElementAt(Question.CurrentIndex);
             } else
             {
                 handleAnswer();
-                currentQuestion = questionList.ElementAt(++Question.CurrentIndex);
+
+
+                Question.CurrentIndex++;
+
+                if(Question.CurrentIndex < questionList.Count)
+                    currentQuestion = questionList.ElementAt(Question.CurrentIndex);
+                else Response.Redirect("Endgame.aspx");
             }
 
-            //if (Question.CurrentIndex == questionList.Count)
-            if (Question.CurrentIndex == 3)
-                Response.Redirect("Endgame.aspx");
             RenderQuestion();
         }
 

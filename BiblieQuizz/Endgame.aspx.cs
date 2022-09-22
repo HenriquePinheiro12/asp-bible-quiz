@@ -25,7 +25,6 @@ namespace BiblieQuizz
             }
 
             repeater.DataBind();
-
         }
 
         protected void GoToHome(object sender, EventArgs e) => Response.Redirect("Home.aspx");

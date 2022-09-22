@@ -1,6 +1,6 @@
 [
     {
-        "Statement": "Quem � o Senhor e salvador?",
+        "Statement": "Quem é o Senhor e salvador?",
         "Alternatives": [
             "Jesus",
             "Cristo",
@@ -15,10 +15,10 @@
             "6 dias",
             "1 dia"
         ],
-        "CorrectIndex": 0
+        "CorrectIndex": 1
     },
     {
-        "Statement": "Quem foi pai de Jos�?",
+        "Statement": "Quem foi pai de José?",
         "Alternatives": [
             "Israel",
             "Jerusal�m",
@@ -27,7 +27,7 @@
         "CorrectIndex": 0
     },
     {
-        "Statement": "Quantos anos durou o cativeiro babil�nico?",
+        "Statement": "Quantos anos durou o cativeiro babilônico?",
         "Alternatives": [
             "400 anos",
             "40 anos",
@@ -36,7 +36,7 @@
         "CorrectIndex": 2
     },
     {
-        "Statement": "Quem escreveu o livro de Lamenta��es?",
+        "Statement": "Quem escreveu o livro de Lamentações?",
         "Alternatives": [
             "Salom�o",
             "Jeremias",
@@ -45,7 +45,7 @@
         "CorrectIndex": 1
     },
     {
-        "Statement": "Quantos filos teve Jac�?",
+        "Statement": "Quantos filos teve Jacó?",
         "Alternatives": [
             "12 filhos",
             "11 filhos",
@@ -63,7 +63,7 @@
         "CorrectIndex": 2
     },
     {
-        "Statement": "Quantos anos durou o minist�rio de Jesus?",
+        "Statement": "Quantos anos durou o ministério de Jesus?",
         "Alternatives": [
             "3 anos",
             "3 anos e meio",
@@ -78,7 +78,7 @@
             "Egito",
             "S�ria"
         ],
-        "CorrectAnswer": 0
+        "CorrectIndex": 0
     },
     {
         "Statement": "Quem foi pai de Isaias?",
@@ -87,70 +87,70 @@
             "Am�s",
             "Uzias"
         ],
-        "CorrectAnswer": 1
+        "CorrectIndex": 1
     },
     {
-        "Statement": "Qual � a primeira igreja da �sia Menor citada por Jo�o no livro de Apocalipse?",
+        "Statement": "Qual é a primeira igreja da �sia Menor citada por João no livro de Apocalipse?",
         "Alternatives": [
             "Igreja de P�rgamo",
             "Igreja de Laodiceia",
             "Igreja de �feso"
         ],
-        "CorrectAnswer": 2
+        "CorrectIndex": 2
     },
     {
-        "Statement": "Quantos animais Daniel v� na vis�o no cap�tulo 7 de seu livro?",
+        "Statement": "Quantos animais Daniel vê na vis�o no cap�tulo 7 de seu livro?",
         "Alternatives": [
             "2 animais",
             "4 animais",
             "7 animais"
         ],
-        "CorrectAnswer": 1
+        "CorrectIndex": 1
     },
     {
-        "Statement": "Qual profeta teve os l�bios purificados por Deus?",
+        "Statement": "Qual profeta teve os lábios purificados por Deus?",
         "Alternatives": [
             "Isaias",
             "Os�ias",
             "Ezequiel"
         ],
-        "CorrectAnswer": 0
+        "CorrectIndex": 0
     },
     {
-        "Statement": "Quantos anci�os foram vistos na assembl�ia celestial de Apocalipse 4?",
+        "Statement": "Quantos anciãos foram vistos na assembl�ia celestial de Apocalipse 4?",
         "Alternatives": [
             "7 anci�os",
             "12 anci�os",
             "24 anci�os"
         ],
-        "CorrectAnswer": 2
+        "CorrectIndex": 2
     },
     {
-        "Statement": "Jo�o e Tiago foram filhos de quem?",
+        "Statement": "João e Tiago foram filhos de quem?",
         "Alternatives": [
             "Zebedeu",
             "Jos�",
             "Ezequias"
         ],
-        "CorrectAnswer": 0
+        "CorrectIndex": 0
     },
     {
-        "Statement": "Quantos livros a B�blia possui?",
+        "Statement": "Quantos livros a Bíblia possui?",
         "Alternatives": [
             "40 livros",
             "54 livros",
             "66 livros"
         ],
-        "CorrectAnswer": 2
+        "CorrectIndex": 2
     },
     {
-        "Statement": "Qual ap�stolo foi escolhido para substituir Judas Iscariotes?",
+        "Statement": "Qual apóstolo foi escolhido para substituir Judas Iscariotes?",
         "Alternatives": [
             "Bartolomeu",
             "Tadeu",
             "Matias"
         ],
-        "CorrectAnswer": 2
+        "CorrectIndex": 2
     },
     {
         "Statement": "Qual era a capital do reino de Israel?",
@@ -159,16 +159,16 @@
             "Samaria",
             "Jud�"
         ],
-        "CorrectAnswer": 1
+        "CorrectIndex": 1
     },
     {
-        "Statement": "Quantos cap�tulos possui o livro de Jeremias?",
+        "Statement": "Quantos capítulos possui o livro de Jeremias?",
         "Alternatives": [
             "49 cap�tulos",
             "52 cap�tulos",
             "60 cap�tulos"
         ],
-        "CorrectAnswer": 1
+        "CorrectIndex": 1
     }
 
 
