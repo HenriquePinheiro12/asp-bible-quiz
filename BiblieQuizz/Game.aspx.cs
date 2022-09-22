@@ -79,15 +79,9 @@ namespace BiblieQuizz
             RenderQuestion();
         }
 
-        protected void StartGame(object sender, EventArgs e) 
-        {
-            Response.Redirect("Game.aspx");
-        }
-            
-        protected void GoToHome(object sender, EventArgs e) 
-        {
-            Response.Redirect("Home.aspx");
-        }
+        protected void StartGame(object sender, EventArgs e) => Response.Redirect("Game.aspx");
+        protected void GoToHome(object sender, EventArgs e)  => Response.Redirect("Home.aspx");
+        
 
         protected void handleAnswer()
         {
