@@ -15,11 +15,14 @@ namespace BiblieQuizz
 
         public static List<Question> questionList;
         static Question currentQuestion;
-        const string JSONPath =
-            "C:\\Users\\user\\Desktop\\pw\\asp-bible-quiz\\BiblieQuizz\\data\\questions.json";
-        // must get it always 
 
-        
+
+
+        string JSONPath = HttpContext.Current.Server.MapPath(@"~/data/questions.json");
+            //"C:\\Users\\user\\Desktop\\pw\\asp-bible-quiz\\BiblieQuizz\\data\\questions.json";
+            // must get it always 
+
+
 
         private void Shuffle<Question>(List<Question> list)
         {
